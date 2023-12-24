@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(16, 126, 107);
+    padding: 5px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+nav{
+    flex-basis: 80%;
+}
+.logo img{
+    width: 80px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex
+   
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.10px;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+nav ul li a:hover{
+    background-color: rgb(11, 99, 69);
+}
+
+.heroBanner_section{
+    background-color: rgb(95, 60, 14);
+    height: 700px;
+    background-image: url(../images/fengyou-wan-UG7QXpz7T7k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+
+}
+.heroBanner_section h1{
+    color: aliceblue;
+    font-size: 90px;
+    font-weight: 900;
+    background-image: url(../images/neom\ 2-efzvMAIpfWY-unsplash.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+
+}
+.gallery_section{
+    padding: 50px 0;
+}
+.gallery{
+    flex-basis: 33.33%;
+    padding: 5px;
+    
+}
+.gallery img{
+    display: block;
+    aspect-ratio: 2/3;
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+.team_section{
+    background-color: rgb(30, 96, 139);
+    padding: 5px 0;
+}
+.team{
+    display: flex;
+    gap: 10px;
+   
+}
+.team div{
+    width: 100px;
+}
+.team_section .container{
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    background-color: aqua;
+}
